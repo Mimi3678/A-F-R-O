@@ -1,0 +1,37 @@
+@media all and (max-width: 500px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eea561;
+}
+ .mainTitle {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 90px;
+ }
+
+ #icon {
+     display: block;
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 120px;
+     margin-bottom: 20px;
+ }
+
+ .welcomeButton {
+     color: white;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
+     color: white;
+     background-color: #593209;
+     text-decoration: none;
+     letter-spacing: 2px;
+     border-radius: 15px;
+     width: 10%;
+
+ }
+
+}
