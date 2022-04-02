@@ -38,6 +38,22 @@
      padding: 2px 16px;
      border-radius: 5px 5px 0 0;
     }
+  .textcard1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 75px;
+    padding: auto;
+    font-size: 25px;
+  }  
+
+#pic1 {
+    width: 200px;
+    float: right;
+    margin-top: 16px;
+    margin-right: -35px;
+    border-radius: 15px;
+    
+}
 
 footer {
     text-align: center;
