@@ -91,6 +91,14 @@
     font-size: 20px;
   }  
 
+  .textcard2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 99px;
+    padding: auto;
+    font-size: 19px;
+  }
+
 #pic1 {
     width: 200px;
     float: right;
@@ -98,6 +106,14 @@
     margin-right: -35px;
     border-radius: 15px;
     
+}
+
+#pic2 {
+    width: 220px;
+    float: left;
+    margin-top: 65px;
+    margin-left: -43px;
+    border-radius: 15px;
 }
 
 footer {
