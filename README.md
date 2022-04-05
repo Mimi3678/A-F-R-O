@@ -12,6 +12,8 @@ https://www.w3schools.com/howto/howto_js_curtain_menu.asp
 Photo sources
 https://unsplash.com/photos/xmSWVeGEnJw
 
+https://coolmenshair.com/country-hairstyles-for-men/
+
 
 Video sources
 https://www.youtube.com/watch?v=dIyVTjJAkLw - Making a hamburger menu
