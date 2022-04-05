@@ -63,21 +63,14 @@
     font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
 }
 
  .card-section {
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-     transition: 0.3s;
+     transition: 1s;
      border-radius: 15px;
      background-color: #d17100;
-     width: 350px;
+     width: 320px;
      height: 300px;
      text-align: center;
      margin-left: auto;
@@ -93,9 +86,9 @@
   .textcard1 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 95px;
     padding: auto;
-    font-size: 25px;
+    font-size: 20px;
   }  
 
 #pic1 {
@@ -112,6 +105,6 @@ footer {
     color: black;
     padding: 15px;
 }
- }
+ 
 
  
