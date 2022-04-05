@@ -1,3 +1,12 @@
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
 @media all and (max-width: 500px) {
 * {
     margin: 0;
@@ -63,7 +72,6 @@
     font-size: 60px;
 }
 
-}
 
  .card-section {
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -122,5 +130,5 @@ footer {
     padding: 15px;
 }
  
-
+}
  
