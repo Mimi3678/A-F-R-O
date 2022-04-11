@@ -1,13 +1,5 @@
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 501px) {
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +34,7 @@
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
+    
 }
 
 .overlay-content {
@@ -129,6 +122,55 @@ footer {
     color: black;
     padding: 15px;
 }
+
+/* @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+*/
  
 }
+
+@media (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        text-align: center;
+        background-color: #f3e3d6;
+        padding: 30px;
+    }
+    
+    .overlay {
+        display: block;
+    }
+
+    span {
+        display: none;
+    }
+
+    .overlay .closebtn {
+        display: none;
+    }
+    
+    .overlay a {
+       text-align: center;
+       padding: 15px;
+       
+       
+    }
+
+    svg, .comb{
+        display: none;
+    }
+    
+    
+}
+
  
