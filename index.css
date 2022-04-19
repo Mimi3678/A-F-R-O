@@ -1,5 +1,5 @@
 
-@media all and (max-width: 501px) {
+/* @media all and (max-width: 500px) {
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +22,211 @@
  }
 
  /* Hamburger menu */
+  
+ /* another menu  test 
+ .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position:absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+ .card-section1 {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 1s;
+     border-radius: 15px;
+     background-color: #d17100;
+     width: 320px;
+     height: 300px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
+     margin-top: 70px;
+ }
+
+ .card-section2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+    border-radius: 15px;
+    background-color: #d17100;
+    width: 320px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+ .container1 {
+     padding: 2px 16px;
+     border-radius: 5px 5px 0 0;
+    }
+
+ .container2 {
+        padding: 2px 16px;
+        border-radius: 5px 5px 0 0;
+       }
+
+  .textcard1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 95px;
+    padding: auto;
+    font-size: 20px;
+  }  
+
+  .textcard2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 99px;
+    padding: auto;
+    font-size: 19px;
+  }
+
+  .box {
+      display: none;
+  }
+
+#pic1 {
+    width: 200px;
+    float: right;
+    margin-top: 16px;
+    margin-right: -35px;
+    border-radius: 15px;
+    
+}
+
+#pic2 {
+    width: 220px;
+    float: left;
+    margin-top: 65px;
+    margin-left: -43px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+ @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+}
+*/
+
+@media (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        text-align: center;
+        background-color: #f3e3d6;
+        padding: 30px;
+    }
+    .pageslink {
+        text-align: center;
+        text-decoration: none;
+        color: #d17100;
+        font-family: 'Quicksand', sans-serif;
+    }
+     .mainTitle {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-size: 60px;
+     }
+    
+    
+
+    span {
+        text-align: left;
+    }
+
+
+    #pic1 {
+    height: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    #pic2 {
+        width: 200px;
+        border-radius: 15px;
+        flex-direction:column-reverse;
+    }
+
+   .box{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    justify-content: center;
+   }
+
+
+   .card-section1 {
+       justify-content: left;
+       width: 500px;
+       height: 400px;
+       padding: 50px;
+       margin: 100px auto;
+       display: flex;
+       flex-direction: row;
+   }
+
+   /* Hamburger menu */
  /* another menu  test */
  .overlay {
     height: 100%;
@@ -66,109 +271,7 @@
 }
 
 
- .card-section {
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-     transition: 1s;
-     border-radius: 15px;
-     background-color: #d17100;
-     width: 320px;
-     height: 300px;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     padding: 20px;
-     margin-top: 70px;
- }
-
- .container {
-     padding: 2px 16px;
-     border-radius: 5px 5px 0 0;
-    }
-  .textcard1 {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    margin-top: 95px;
-    padding: auto;
-    font-size: 20px;
-  }  
-
-  .textcard2 {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    margin-top: 99px;
-    padding: auto;
-    font-size: 19px;
-  }
-
-#pic1 {
-    width: 200px;
-    float: right;
-    margin-top: 16px;
-    margin-right: -35px;
-    border-radius: 15px;
-    
-}
-
-#pic2 {
-    width: 220px;
-    float: left;
-    margin-top: 65px;
-    margin-left: -43px;
-    border-radius: 15px;
-}
-
-footer {
-    text-align: center;
-    color: black;
-    padding: 15px;
-}
-
-/* @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
-*/
- 
-}
-
-@media (min-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .header {
-        text-align: center;
-        background-color: #f3e3d6;
-        padding: 30px;
-    }
-    
-    .overlay {
-        display: block;
-    }
-
-    span {
-        display: none;
-    }
-
-    .overlay .closebtn {
-        display: none;
-    }
-    
-    .overlay a {
-       text-align: center;
-       padding: 15px;
-       
-       
-    }
-
-    svg, .comb{
-        display: none;
-    }
+   
     
     
 }
