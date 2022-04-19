@@ -18,5 +18,10 @@ https://coolmenshair.com/country-hairstyles-for-men/
 Video sources
 https://www.youtube.com/watch?v=dIyVTjJAkLw - Making a hamburger menu
 
+Navbar hover
+https://www.youtube.com/watch?v=wHFflWvii3M
+
+
 Information sources
 https://www.justinmind.com/blog/hamburger-menu/
+https://naturalgirlwigs.com/blogs/beauty/how-to-care-for-your-natural-hair
