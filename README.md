@@ -17,3 +17,6 @@ https://coolmenshair.com/country-hairstyles-for-men/
 
 Video sources
 https://www.youtube.com/watch?v=dIyVTjJAkLw - Making a hamburger menu
+
+Information sources
+https://www.justinmind.com/blog/hamburger-menu/
