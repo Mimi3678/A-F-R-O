@@ -252,7 +252,16 @@ footer {
     }
 
     .logobrands{
-        display: none;
+        display: none; 
+    }
+
+    .FollowLink {
+    display: inline-block;
+    background: #994900;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-width: 30px;
+    
     }
 
     .logobrands li{
@@ -283,27 +292,21 @@ footer {
     background: transparent;
     border-radius: 0;
     }
-    
-    
 
+    
+    
 
 
     /*body*/ 
 
-    #pic1 {
-    height: 400px;
-    padding: 20px;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center
+    #pics{
+        float: right;    
+        margin: 0 25 0 15px;
+        padding-left: 45px;
+        padding-right: 55px;
     }
-    
-    #pic2 {
-        width: 200px;
-        border-radius: 15px;
-        flex-direction:column-reverse;
-    }
+
+
 
    .box{
     width: 500px;
@@ -326,6 +329,86 @@ footer {
        display: flex;
        flex-direction: row;
    }
+
+
+   /* body text */
+   .msg-container {
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 1%;
+    top: 57%;
+    transform: translateY(-40%);
+    overflow: hidden;
+}
+
+#slider {
+    display: inline-flex; /* lets it display in coloumn*/
+    transition: 0.5s;
+}
+
+.msg-col {
+    width:600px;
+    height: 280px;
+}
+
+.msg-col h1 {
+    color: black;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.msg-col p {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.msg-col a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #994900;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+/* slider*/
+
+.controller {
+    width: 1px;
+    height: 320px;
+    display: block;
+    background: #c0c0c0;
+    position: absolute;
+    top: 55%;
+    right: 50px;
+    transform: translateY(-50%);
+    margin-left: 100px;
+    border: 2px solid brown;  
+    
+}
+
+#line1, #line2, #line3, #line4{
+    height: 80px;
+    width:10px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+#active {
+    width: 5px;
+    height: 80px;
+    border-radius: 10px;
+    background: black;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+}
+
 
    /* Hamburger menu */
  /* another menu  test */
