@@ -348,15 +348,16 @@ footer {
 }
 
 .msg-col {
-    width:600px;
+    width: 800px;
     height: 280px;
+    margin: 90px;
 }
 
 .msg-col h1 {
     color: black;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 100;
-    margin: 10px 0;
+    
 }
 
 .msg-col p {
@@ -371,9 +372,9 @@ footer {
     color: #fff;
     background: #994900;
     font-size: 15px;
-    padding: 10px 35px;
+    padding: 15px 35px;
     border-radius: 30px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 /* slider*/
@@ -385,7 +386,7 @@ footer {
     background: #c0c0c0;
     position: absolute;
     top: 55%;
-    right: 50px;
+    right: 15px;
     transform: translateY(-50%);
     margin-left: 100px;
     border: 2px solid brown;  
@@ -394,14 +395,14 @@ footer {
 
 #line1, #line2, #line3, #line4{
     height: 80px;
-    width:10px;
+    width:20px;
     cursor: pointer;
     transform: translateX(-50%);
 }
 
 #active {
-    width: 5px;
-    height: 80px;
+    width: 10px;
+    height: 35px;
     border-radius: 10px;
     background: black;
     position: absolute;
