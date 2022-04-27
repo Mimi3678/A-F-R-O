@@ -10,6 +10,122 @@
     <script src="https://kit.fontawesome.com/4a24899f7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section class="header">
+        <h1 class="mainTitle">A-F-R-O</h1>
+               <div class="mainNav">
+                   <ul>
+                       <li class="active"><a href="/index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                       <li><a href="/pagesHead/discover.html"><i class="fa-solid fa-magnifying-glass"></i>Discover</a>
+                          <div class="sub-menu-1">
+                              <ul>
+                                  <li><a href="#">Women</a></li>
+                                  <li><a href="#">Men</a></li> 
+                                  <li><a href="#">Kids</a></li>
+                              </ul>
+                          </div>
+                      </li>
+      
+                       <li><a href="/pagesHead/shop.html"><i class="fa-solid fa-shop"></i>Shop</a>
+                          <div class="sub-menu-1">
+                              <ul>
+                                  <li><a href="#">Women</a></li>
+                                  <li><a href="#">Men</a></li> 
+                                  <li><a href="#">Kids</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                       <li><a href="/pagesHead/sign up.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                       
+                       <li class="FollowLink"><a href="#"><i class="fa-solid fa-heart-circle-plus"></i></a>
+                          <div class="logobrands">
+                          <ul>
+                              <li><a href="#"></a><i class="fa-brands fa-instagram-square"></i></li>
+                              <li><a href="#"></a><i class="fa-brands fa-pinterest"></i></li>
+                              <li><a href="#"></a><i class="fa-brands fa-tiktok"></i></li>
+                              <li><button>Subscribe to our newsletter</button></li>
+                          </ul>
+                      </div>
+                      </li>
+                      
+                   </ul>
+               </div>
+      </section>
+
+
+    <section class="introWomen">
+        <h1 class="headingWomen">Men</h1>
+        <p class="pWomen"> 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/>Optio fugit
+          ducimus assumenda at, quidem culpa vero odit tempore<br/> perferendis aliquid
+          itaque totam odio sit quos exercitationem nisi<br/> voluptates laudantium ab.
+        </p>
+      </section>
+
+      <section class="section2">
+          <div class="NavWomen">
+            <h2 class="womenheading">Explore by</h2>
+            <ul>
+                <li><a href="#">Hair type</a>
+                   <div class="sub-menu-women1">
+                       <ul>
+                           <li><a href="#">4A</a></li>
+                           <li><a href="#">4B</a></li> 
+                           <li><a href="#">4C</a></li>
+                       </ul>
+                   </div>
+               </li>
+
+                <li><a href="#">Hair styles</a>
+                   <div class="sub-menu-women1">
+                       <ul>
+                           <li><a href="#">Women</a></li>
+                           <li><a href="#">Men</a></li> 
+                           <li><a href="#">Kids</a></li>
+                       </ul>
+                   </div>
+               </li>
+
+               <li><a href="#">How to tutorials</a>
+                <div class="sub-menu-women1">
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li> 
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </div>
+            </li>
+            </ul>
+      </section>
+
+        <div class="main-scroll-div">
+            <div>
+                <button class="icon" onclick="scrolll()"><i class="fa-solid fa-angles-left"></i></button>
+            </div>
+            <div class="cover">
+                <div class="scroll-images">
+                    <div class="child"><img class="child-img" src="../images/brian-lundquist-W008u5TKqA0-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/country-style-dreads-for-guys-removebg-preview.png" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/gift-habeshaw-SKICLmVW_eg-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/kingsley-osei-abrah-9KmzY22Tz-4-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
+                </div>
+            </div>
+            <div>
+                <button class="icon" onclick="scrollright()"><i class="fa-solid fa-angles-right"></i></button>
+            </div>
+        </div>
+
+      <script>
+          function scrolll() {
+              let left = document.querySelector(".scroll-images");
+              left.scrollBy(350,0)
+          }
+          function scrollright() {
+              let right = document.querySelector(".scroll-images");
+              right.scrollBy(-350,0)
+          }
+      </script>
     
 </body>
 </html>
