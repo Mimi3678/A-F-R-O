@@ -1,10 +1,11 @@
 @media (min-width: 600px) {
-    * {
+    *, html{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         background-size: cover;
         background-position: center;
+        scroll-behavior: auto !important;
     }
     
     /*head*/
@@ -155,7 +156,7 @@
 
      .NavWomen {
         text-align: center;
-        border-style: solid; /* to see where to position*/
+        /*border-style: solid; /* to see where to position*/
         padding: 5px;
         margin: 50px;
     }
@@ -216,8 +217,8 @@
         }
         
         .NavWomen ul li:hover .sub-menu-women1 ul li {
-            width: 100px;
-            padding: 10px;
+            width: 90px;
+            padding: 3px;
             border-bottom: 1px dotted black;
             background: transparent;
             border-radius: 0;
@@ -232,6 +233,9 @@
             color: #994900;
         }
 
+
+        /* third-section*/
+        
        .main-scroll-div {
            width: 90%;
            height: 100%;
@@ -239,6 +243,8 @@
            align-items: center;
            justify-content: space-between;
            /*border: 2px solid blue;*/
+           position: absolute;
+           padding-bottom: 300px;
        }
         
      .cover {
@@ -247,29 +253,7 @@
          height: 50%;
      }
 
-     .cover::before {
-         position: relative;
-         content: "";
-         left: 0;
-         top: 0;
-         z-index: 99;
-         height: 100%;
-         width: 150%;
-         background-image: linear-gradient(99deg, black, transparent);
-     }
-
-     .cover::after{
-        position: relative;
-        content: "";
-        right: 0;
-        top: 0;
-        z-index: 99;
-        height: 100%;
-        width: 150%;
-        background-image: linear-gradient(99deg, black, transparent);
-    }
-
-
+     
      .scroll-images {
          width: 100%;
          height: auto;
@@ -286,7 +270,7 @@
          height: 450px;
          margin: 0px 10px;
          cursor: pointer;
-         border: px solid white;
+         border: 1px solid white;
          overflow: hidden;
      }
 
