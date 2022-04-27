@@ -7,7 +7,7 @@
     <title>AFRO-Women</title>
     <link rel="stylesheet" href="/stylesheetDiscover/women.css" />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"type='text/css'>
+    <script src="https://kit.fontawesome.com/4a24899f7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="header">
@@ -65,7 +65,7 @@
           <div class="NavWomen">
             <h2 class="womenheading">Explore by</h2>
             <ul>
-                <li><a href="#"><i class="fa-solid fa-shop"></i>Hair type</a>
+                <li><a href="#">Hair type</a>
                    <div class="sub-menu-women1">
                        <ul>
                            <li><a href="#">4A</a></li>
@@ -75,7 +75,7 @@
                    </div>
                </li>
 
-                <li><a href="#"><i class="fa-solid fa-shop"></i>Hair styles</a>
+                <li><a href="#">Hair styles</a>
                    <div class="sub-menu-women1">
                        <ul>
                            <li><a href="#">Women</a></li>
@@ -85,7 +85,7 @@
                    </div>
                </li>
 
-               <li><a href="#"><i class="fa-solid fa-shop"></i>How to tutorials</a>
+               <li><a href="#">How to tutorials</a>
                 <div class="sub-menu-women1">
                     <ul>
                         <li><a href="#">Women</a></li>
@@ -100,22 +100,33 @@
       <section>
         <div class="main-scroll-div">
             <div>
-                <button class="icon"></button><i class="fa-solid fa-angles-left"></i></button>
+                <button class="icon" onclick="scrolll()"><i class="fa-solid fa-angles-left"></i></button>
             </div>
             <div class="cover">
                 <div class="scroll-images">
                     <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
-                    <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
-                    <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
-                    <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/good-faces-NVwweuXv2vg-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/good-faces-62wQhEghaw0-unsplash.jpg" alt="image"></div>
+                    <div class="child"><img class="child-img" src="../images/vitae-london-CP0fK30hSrg-unsplash.jpg" alt="image"></div>
                     <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
                     <div class="child"><img class="child-img" src="../images/jessica-felicio-_cvwXhGqG-o-unsplash.jpg" alt="image"></div>
                 </div>
             </div>
             <div>
-                <button class="icon"></button></button><i class="fa-solid fa-angles-right"></i>
+                <button class="icon" onclick="scrollright()"><i class="fa-solid fa-angles-right"></i></button>
             </div>
         </div>
       </section>
+
+      <script>
+          function scrolll() {
+              let left = document.querySelector(".scroll-images");
+              left.scrollBy(350,0)
+          }
+          function scrollright() {
+              let right = document.querySelector(".scroll-images");
+              right.scrollBy(-350,0)
+          }
+      </script>
 </body>
 </html>
