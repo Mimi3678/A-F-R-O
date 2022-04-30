@@ -1,0 +1,134 @@
+@media (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    /*head*/
+   .header {
+        text-align: center;
+        background-color: #f3e3d6;
+        padding-bottom: -0.4px;
+        padding-top: 25px;
+        position: relative;
+    }
+    
+    .mainNav a {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-family: "Avenir","Proxima Nova Alt",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    }
+
+    
+
+    .mainNav ul {
+        display: inline-flex;
+        list-style: none;
+    }
+
+    .mainNav ul li{
+    width: 150px;
+    margin: 3px;
+    padding: 3px;
+    }
+
+     .mainTitle {
+        font-family: "Avenir","Proxima Nova Alt",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+        text-align: center;
+        font-size: 60px;
+        padding: 15px;
+     }
+
+     .mainNav ul li:hover {
+        background: #a85507;
+        border-radius: -10px;
+        margin: 1px;
+    }
+
+     .mainNav .fa-solid{
+         margin-left: 10px;
+     }
+
+     .sub-menu-1 {
+        display: none; 
+    }
+    
+    .mainNav ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: rgb(255, 255, 255);
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    
+    .mainNav ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 10px;
+    }
+    
+    .mainNav ul li:hover .sub-menu-1 ul li {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted black;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    
+    .mainNav ul li:hover .sub-menu-1 ul li:last-child {
+        border-bottom: none;
+    }
+    
+    .mainNav ul li:hover .sub-menu-1 ul li a:hover {
+        color: #994900;
+    }
+
+    .logobrands{
+        display: none; 
+    }
+
+    .FollowLink {
+    display: inline-block;
+    background: #994900;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-width: 30px;
+    
+    }
+
+    .logobrands li{
+        display: flex;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-items: first baseline;
+    }
+    
+
+    .mainNav ul li:hover .logobrands {
+    display: block;
+    position: absolute;
+    background: #994900;
+    margin-top: 15px;
+   
+    }
+
+    /* aligning the logos*/
+    .mainNav ul li:hover .logobrands ul {
+        display: block;
+        margin: 20px;
+    }
+
+    .mainNav ul li:hover .logobrands ul li {
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    }
+}
