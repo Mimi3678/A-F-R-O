@@ -133,4 +133,9 @@
     border-radius: 0;
     }
 
+    footer{
+        padding: 50px;
+        background-color: #f3e3d6;
+    }
+
 }
