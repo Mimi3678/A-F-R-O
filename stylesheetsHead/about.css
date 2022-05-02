@@ -133,4 +133,63 @@
     border-radius: 0;
     }
 
+    .aboutHead{
+        text-align: center;
+        padding: 15px;
+        background-color: #a85507;
+    }
+    .aboutH1, .aboutP{
+        color: black;
+        font-size: 30px;
+    }
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; 
+    }
+
+    .box, .box2{
+        margin: 95px;
+        /*border: 3px solid #4CAF50;*/
+        padding: 5px;
+    }
+
+    .img1{
+        float: left;
+        margin: 15px;
+    }
+
+    .img2{
+        float: right;
+        margin: 15px;
+    }
+
+    .box::after, .box2::after{
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .sech2{
+          font-size: 40px;
+          margin: 35px;
+      }
+    
+      .secP {
+          font-size: 30px;
+          margin: 35px;
+      }
+    
+    
+    footer{
+        padding: 50px;
+        background-color: #f3e3d6;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+
+
 }
