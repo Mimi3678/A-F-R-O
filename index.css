@@ -176,6 +176,11 @@ footer {
         padding-top: 25px;
         position: relative;
     }
+
+    #body {
+        padding:10px;
+        padding-bottom:60px;   /* Height of the footer */
+     }
     
     .mainNav a {
     text-align: center;
@@ -294,16 +299,14 @@ footer {
     }
 
     
-    
-
-
     /*body*/ 
 
     #pics{
         float: right;    
-        margin: 0 25 0 15px;
+        margin: 95px;
         padding-left: 45px;
         padding-right: 55px;
+        
     }
 
 
@@ -333,12 +336,12 @@ footer {
 
    /* body text */
    .msg-container {
-    width: 600px;
-    height: 280px;
+    width: 900px;
+    height: 380px;
     position: absolute;
     left: 1%;
-    top: 57%;
-    transform: translateY(-40%);
+    top: 60%;
+    transform: translateY(-50%);
     overflow: hidden;
 }
 
@@ -349,20 +352,20 @@ footer {
 
 .msg-col {
     width: 800px;
-    height: 280px;
-    margin: 90px;
+    height: 600px;
+    margin: 50px;
 }
 
 .msg-col h1 {
     color: black;
     font-size: 50px;
     font-weight: 100;
-    
+    margin: 15px;
 }
 
 .msg-col p {
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
 }
 
@@ -380,36 +383,25 @@ footer {
 /* slider*/
 
 .controller {
-    width: 1px;
-    height: 320px;
+    width: 10px;
+    height: 230px;
     display: block;
     background: #c0c0c0;
     position: absolute;
     top: 55%;
-    right: 15px;
+    right: 1px;
     transform: translateY(-50%);
     margin-left: 100px;
-    border: 2px solid brown;  
+    border: 5px solid #a85507;  
     
 }
 
 #line1, #line2, #line3, #line4{
-    height: 80px;
+    height: 70px;
     width:20px;
     cursor: pointer;
     transform: translateX(-50%);
 }
-
-#active {
-    width: 10px;
-    height: 35px;
-    border-radius: 10px;
-    background: black;
-    position: absolute;
-    top: 0;
-    transform: translateX(-50%);
-}
-
 
    /* Hamburger menu */
  /* another menu  test */
@@ -454,6 +446,8 @@ footer {
     right: 45px;
     font-size: 60px;
 }
+
+
 
 }
 
