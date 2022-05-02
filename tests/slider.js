@@ -1,4 +1,4 @@
-let slider = document.getElementById('slider');
+/*let slider = document.getElementById('slider');
         var active = document.getElementById('active');
         var line1 = document.getElementById('line1');
         var line2 = document.getElementById('line2');
@@ -17,3 +17,6 @@ let slider = document.getElementById('slider');
         line4.onclick = function() {
             slider.style.transform = 'translateX(-75%)';
         }
+
+*/
+
