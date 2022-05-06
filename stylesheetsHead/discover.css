@@ -156,25 +156,29 @@
  }
  
  .msg-container {
-    width: 600px;
+    width: 100%;
     height: 280px;
-    position: absolute;
+    /*position: absolute;
     left: 10%;
     top: 65%;
-    transform: translateY(-40%);
-    
+    transform: translateY(-40%);*/
 }
 
 #slider {
-    display: inline-flex; /* lets it display in coloumn*/
-   
+    display: flex;
+    /*display: grid; /* lets it display in coloumn
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 150px 1fr;*/
+    
 }
 
 .msg-col {
-    width:350px;
-    height: 20px;
-    margin-right: 35px;
-    padding-top: 300px;
+    width:90%;
+    height: 30px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 600px;
+    margin-left: 90px;
 }
 
 .msg-col h1 {
@@ -191,7 +195,7 @@
 }
 
 .msg-col a {
-    display: inline-block;
+    /*display: inline-block;*/
     text-decoration: none;
     color: #fff;
     background: #994900;
@@ -204,24 +208,25 @@
 /* photos */
 
 .imgDisc1, .imgDisc2 {
-  display: block;
+  /*display: block;*/
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
 .imgDisc3 {
-  display: block;
+  /*display: block;*/
   margin-left: auto;
   margin-right: auto;
   width: 99%;
 }
 
 .InfoSection{
-    padding: 50px;
+    padding-top: 200px;
     /*border: 5px solid red;*/
     margin: 80px;
     /*background-color: #C06722;*/
+    
     
 }
 
