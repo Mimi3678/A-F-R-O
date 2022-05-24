@@ -40,7 +40,7 @@ tasks.push(task1, task2, task3, task4, task5)
     let taskIndex = 0
 
     for (let task of tasks) {
-        out += "<li>" +
+        out += "<li>" + 
          "<h4>" + task.question + "</h4>" + 
          "<div>"
 
